@@ -24,6 +24,15 @@
         float: right;
         width: 70%;
     }
+
+    #login > #imagem {
+    height: 100%;
+    width: 30%;
+    background-image: url(../imagens/estrada.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -44,5 +53,14 @@
     #formulario {
         float: right;
         width: 50%;
+    }
+
+    #login > #imagem {
+    height: 100%;
+    width: 50%;
+    background-image: url(../imagens/estrada.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
     }
 }
